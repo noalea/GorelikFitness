@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="gFitApp">
+  <head>
+    <base href="/GorelikFitness/">
+    <meta charset="utf-8">
+    <title>Gorelik Fitness</title>
+    <meta name="description" content="Your personal trainer, military style." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.js"></script>
+    <script src="gFitApp.js"></script>
+    <script src="js/mainCtrl.js"></script>
+  </head>
+  <body ng-controller="mainCtrl">
+
+    <header>
+      <i ng-click="openNav()" class="fa fa-bars nav-icon pointer" aria-hidden="true"></i>
+      <h2 class="white"><span class="blue g">G</span>fit</h2>
+      <i class="fa fa-map-o guide-icon pointer" aria-hidden="true"></i>
+    </header>
+    <nav>
+      <ul>
+        <li>Videos</li>
+        <li>Custom Guides</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+  </body>
+</html>
